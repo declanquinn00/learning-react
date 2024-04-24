@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Accordian from './components/accordian'
+import RandomColor from './components/random-color';
 
 function App() {
   return (
-    <div classname="App">
+    <div className="App">
       {/* Accordian component*/}
       <Accordian/>
+
+      {/* Reandom Colour Component*/}
+      <RandomColor/>
     </div>
   );
 }
