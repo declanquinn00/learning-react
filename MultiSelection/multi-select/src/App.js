@@ -8,10 +8,12 @@ import LoadMoreData from './components/load-more-data';
 import TreeView from './components/tree-view';
 import menus from "./components/tree-view/data";
 import QrCodeGenerator from './components/qr-code';
+import LightDarkMode from './components/light-dark-mode';
 
 function App() {
   return (
     <div className="App">
+    
       {/* Accordian component*/}
       <Accordian/>
 
@@ -32,6 +34,9 @@ function App() {
 
       {/*QR code Component*/}
       <QrCodeGenerator/>
+
+      {/*Light and Dark Mode*/}
+      <LightDarkMode/>
 
     </div>
   );
