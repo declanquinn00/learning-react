@@ -9,6 +9,7 @@ import TreeView from './components/tree-view';
 import menus from "./components/tree-view/data";
 import QrCodeGenerator from './components/qr-code';
 import LightDarkMode from './components/light-dark-mode';
+import ScrollIndicator from './components/custom-scroll';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
 
       {/*Light and Dark Mode*/}
       <LightDarkMode/>
+
+      {/*Scroll component*/}
+      <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
 
     </div>
   );
