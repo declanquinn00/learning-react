@@ -19,6 +19,7 @@ import FeatureFlagGlobalState from './components/feature-flag/context';
 import FeatureFlags from './components/feature-flag';
 import UseFetchHookTest from './components/use-fetch/test';
 import UseOnClickOutsideTest from './components/use-click-outside/test';
+import UseWindowResizeTest from './components/use-window-resize/test';
 
 function App() {
   return (
@@ -76,6 +77,9 @@ function App() {
 
       {/* Use Onclick - Outside*/}
       <UseOnClickOutsideTest/>
+
+      {/*Use Window Size */}
+      <UseWindowResizeTest/>
 
     </div>
   );
